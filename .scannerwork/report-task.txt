@@ -1,0 +1,6 @@
+projectKey=bitsamericas
+serverUrl=http://sonardev.local.com
+serverVersion=7.9.3.33349
+dashboardUrl=http://sonardev.local.com/dashboard?id=bitsamericas
+ceTaskId=AXMVK8SOHq3c23LnjnU8
+ceTaskUrl=http://sonardev.local.com/api/ce/task?id=AXMVK8SOHq3c23LnjnU8

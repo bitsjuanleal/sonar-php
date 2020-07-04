@@ -1,0 +1,12 @@
+#!/bin/sh
+# --- Start
+
+versionNumber=$(<VersionNumber.txt)
+IFS='.'
+read -ra versionArray <<< "$versionNumber"
+lastDigitVersion=${versionArray[4]}
+newLastDigitVersion=$((lastDigitVersion+1))
+sed -i "s/.$/$newLastDigitVersion/" VersionNumber.txt
+
+# --- Finished
+exit 0
